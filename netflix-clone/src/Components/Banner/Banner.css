@@ -1,0 +1,77 @@
+.banner {
+    height: 80vh;
+    margin-bottom: -80px;
+    color: white;
+    object-fit: contain;
+
+}
+
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner__buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.5vw;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 1000px;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: all 0.3s ease;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); */
+}
+.play{
+    color: black;
+    background-color: #e6e6e6;
+}
+.MY List {
+    color: white;
+    background-color: black;
+}
+
+.banner__button:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transform: scale(1.08);
+}
+
+.banner__description {
+  font-size: 1rem;
+  color: white;
+  max-width: 600px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* .banner__fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37, 37, 37, 0.61),
+        #111
+    );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */

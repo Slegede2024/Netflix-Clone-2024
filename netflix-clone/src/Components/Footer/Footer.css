@@ -1,0 +1,91 @@
+.footer_outer_container {
+  width: 100%;
+  background-color: #111;
+  color: #757575;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_inner_container {
+  width: 80%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer_icons svg {
+  font-size: 24px;
+  color: #757575;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_icons svg:hover {
+  color: #e50914; /* Netflix Red */
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer_data div {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_data ul li {
+  margin: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_data ul li:hover {
+  color: #e50914;
+}
+
+.service_code {
+  margin-top: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.service_code:hover {
+  color: #e50914;
+}
+
+.copy-write {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #757575;
+}
+
+@media (max-width: 768px) {
+  .footer_data {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_data div {
+    margin-bottom: 10px;
+  }
+}
